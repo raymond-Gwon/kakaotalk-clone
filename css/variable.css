@@ -1,0 +1,14 @@
+:root {
+  /* Font size */
+  --big-font: 24px;
+  --large-font: 22px;
+  --medium-font: 18px;
+  --small-font: 16px;
+
+  /* Font color */
+  --grey: #9e9e9e;
+  --light-grey: #bdbdbd;
+
+  /* line */
+  --divide-line: 1px solid #bdbdbd;
+}

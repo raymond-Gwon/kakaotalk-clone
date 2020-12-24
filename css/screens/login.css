@@ -1,0 +1,47 @@
+.welcome-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.welcome-title h1 {
+  font-size: var(--big-font);
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.welcome-title__subtitle {
+  text-align: center;
+  font-size: var(--medium-font);
+  color: var(--grey);
+  margin-bottom: 80px;
+}
+
+.welcome-loginForm {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.welcome-loginForm input {
+  font-size: var(--large-font);
+  border-bottom: var(--divide-line);
+  height: 70px;
+}
+.welcome-loginForm input::placeholder {
+  color: var(--light-grey);
+}
+.welcome-loginForm input[type="password"] {
+  margin-bottom: 25px;
+}
+.welcome-loginForm input[type="submit"],
+.welcome-loginForm input[type="button"] {
+  margin: 5px 0;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  font-size: var(--medium-font);
+}
+.welcome-loginForm a {
+  margin: 20px 0;
+}
