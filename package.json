@@ -1,0 +1,23 @@
+{
+  "name": "kakaotalk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raymond-Gwon/kakaotalk-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raymond-Gwon/kakaotalk-clone/issues"
+  },
+  "homepage": "https://github.com/raymond-Gwon/kakaotalk-clone#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.0.4"
+  }
+}
